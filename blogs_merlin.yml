@@ -1,0 +1,165 @@
+---
+    domain: https://blogs.perficient.com
+    
+    urls:
+     - /2023/05/23/the-dialogue-element-modals-made-simple/
+     - /2023/05/16/getting-to-know-sitecore-search-part-4/
+
+    urls_file:
+      - "..\output\prft\effective-urls-blogs_site_structure_default.yml" #relative to the location of this file
+        
+    fetch_options:  
+      delay: 500
+      ignore_ssl_errors: true      
+
+    entity_type: blogs
+    mappings:
+      - field: url
+        type: alias
+        
+      - field: sitecore_root_path
+        type: static_value
+        options:
+          value: "/sitecore/content/ESTest/Prft/Home/Blogs"
+          
+      - field: sitecore_template_id
+        type: static_value
+        options:
+          value: "{4A9E184A-8E55-4865-AE70-E89F1E8D1431}"
+          
+      - field: meta_title
+        type: text
+        selector: //title            
+        
+      - field: meta_keywords
+        type: meta
+        options:
+          value: keywords
+          attr: name
+          
+      - field: meta_description
+        type: meta
+        options:
+          value: description
+          attr: name
+          
+      - field: meta_og_title
+        type: meta
+        options:
+          value: og:title
+          attr: property
+          
+      - field: meta_og_description
+        type: meta
+        options:
+          value: og:description
+          attr: property          
+          
+      - field: meta_og_sitename
+        type: meta
+        options:
+          value: og:site_name
+          attr: property    
+          
+      - field: meta_og_sitename
+        type: meta
+        options:
+          value: og:site_name
+          attr: property    
+          
+      - field: meta_og_type
+        type: meta
+        options:
+          value: og:type
+          attr: property
+          
+      - field: meta_og_image
+        type: meta
+        options:
+          value: og:image
+          attr: property      
+          
+      - field: meta_published_time
+        type: meta
+        options:
+          value: article:published_time
+          attr: property      
+          
+      - field: featured_image
+        type: media
+        selector: div.story-two-header-content-img img
+        options:
+          file: src          
+          alt: alt
+          type: featured_images
+          
+      - field: title
+        selector: h1:first-of-type
+        type: text
+        processors:
+          - processor: nl2br
+          
+      - field: primary_category
+        selector: p.eyebrow-header-eyebrow
+        type: text
+        
+      - field: author
+        selector: h4.byline span.author a
+        type: text
+        
+      - field: date
+        selector: h4.byline span.date
+        type: text
+        
+      - field: content
+        selector: div.entry
+        type: long_text
+        processors:
+          - processor: nl2br
+          - processor: remove_empty_tags
+          - processor: whitespace
+
+      - field: content_images
+        type: media
+        selector: div.entry img
+        options:
+          file: src          
+          alt: alt
+          type: content_images
+          
+      - field: author_page
+        type: link
+        selector: div.author-avatar-and-name-avatar a
+        options:
+            link: href            
+          
+      - field: author_image
+        type: media
+        selector: div.author-avatar-and-name-avatar img
+        options:
+            file: src
+            alt: alt
+            type: author_images
+        
+      - field: author_bio
+        selector: div.author-avatar-and-name-description p:first-of-type
+        type: text
+        processors:
+            - processor: replace
+                pattern: "More from this Author"        
+      
+      - field: categories        
+        selector: //div[@class="widget"]//ul/li  #Taxonomy_term only works with xpath selector        
+        type: taxonomy_term
+        vocab: category        
+        children:
+            - field: uuid
+              type: uuid              
+              selector: a
+            - field: name
+              type: text
+              selector: a
+            
+      - field: tags
+        selector: div.tags-author-info a
+        type: text    

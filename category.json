@@ -1,0 +1,252 @@
+{
+    "data": {
+        "0": {
+            "uuid": "f47d9f1b-dc4f-31fd-b896-3fa00fe4d304",
+            "name": "Accessibility"
+        },
+        "1": {
+            "uuid": "205dd6d7-887c-3501-b20a-3a2137437a47",
+            "name": "Technical"
+        },
+        "2": {
+            "uuid": "00ba851e-b649-30d3-902a-3a32d230110f",
+            "name": "Development"
+        },
+        "3": {
+            "uuid": "8492492a-25c4-3c45-95a1-59c3d6b59620",
+            "name": "Sitecore"
+        },
+        "4": {
+            "uuid": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+            "name": "Cloud"
+        },
+        "7": {
+            "uuid": "2678494c-e54a-350a-9b58-10dbe24cfa14",
+            "name": "Architecture"
+        },
+        "8": {
+            "uuid": "4b1409d9-5b50-30aa-a9a7-f6a1315eb807",
+            "name": "Back-End Development"
+        },
+        "9": {
+            "uuid": "65664603-16e5-36de-9f30-d2b93fd353ed",
+            "name": "Front-End Development"
+        },
+        "10": {
+            "uuid": "ab387fc1-cdf3-3bee-8a1b-fc0a61bb7226",
+            "name": "Quality Assurance"
+        },
+        "12": {
+            "uuid": "733dda2c-dfee-3086-adcf-3bd7dd8bf279",
+            "name": "Customer Experience"
+        },
+        "13": {
+            "uuid": "b4355623-4b87-334b-a296-0c2639506e76",
+            "name": "Design & UX"
+        },
+        "14": {
+            "uuid": "9b4a78e1-29ee-3ce7-9caf-ba5b581660ec",
+            "name": "Experience Design"
+        },
+        "15": {
+            "uuid": "a1aad424-58b0-38e3-9b8e-495281ef7bb9",
+            "name": "Design"
+        },
+        "17": {
+            "uuid": "f9bb41f5-2eb4-378a-b74b-b86f4dbb6144",
+            "name": "Digital Experience"
+        },
+        "18": {
+            "uuid": "26d8e278-dde2-3650-86f5-c009dfeb32c7",
+            "name": "Digital Marketing"
+        },
+        "33": {
+            "uuid": "ad1b5f6e-60cd-3560-aad7-d38b6f9fd6df",
+            "name": "Integration & IT Modernization"
+        },
+        "34": {
+            "uuid": "e8be68cb-816e-3f6b-8fba-905a927dd22e",
+            "name": "Oracle"
+        },
+        "35": {
+            "uuid": "e3ef00c1-3d19-31ce-bcdf-41887b2637fe",
+            "name": "Podcast"
+        },
+        "36": {
+            "uuid": "84e63d64-89d6-3cea-90bf-2dc41cd8dae3",
+            "name": "Automotive"
+        },
+        "38": {
+            "uuid": "2bdb4ef2-63bf-3817-b5c9-46f863a1870e",
+            "name": "Digital Transformation"
+        },
+        "39": {
+            "uuid": "00a85ed0-246c-35e7-acaa-c45c311f3ecd",
+            "name": "Innovation and Product Development"
+        },
+        "40": {
+            "uuid": "d118eae9-fd14-3162-98fb-c738af3cd9d6",
+            "name": "Management Consulting"
+        },
+        "41": {
+            "uuid": "ac0da419-480a-3cd8-b95f-afb6e8321f01",
+            "name": "Organizational Change Management"
+        },
+        "42": {
+            "uuid": "a2628a9a-495b-37ee-bbea-914d8085ad04",
+            "name": "Project Management"
+        },
+        "43": {
+            "uuid": "7af318f8-6f7c-34eb-bc85-d4e95dd97af4",
+            "name": "Optimizely"
+        },
+        "45": {
+            "uuid": "b7d22311-4b88-3ede-95e7-5783d06f8bd3",
+            "name": "Adobe"
+        },
+        "46": {
+            "uuid": "a5a06be5-ad14-3351-b3b9-6846d1b087fb",
+            "name": "Adobe Commerce"
+        },
+        "47": {
+            "uuid": "d014f796-bc42-3e03-b66a-452d21cb3206",
+            "name": "News"
+        },
+        "49": {
+            "uuid": "58fc26c1-91df-3413-9336-d86b0af1cda4",
+            "name": "Financial Services"
+        },
+        "50": {
+            "uuid": "bd305958-5008-3364-9bf6-6a4e27094b7f",
+            "name": "Social Media"
+        },
+        "51": {
+            "uuid": "43d2e095-d7ca-3b47-9edc-ca44be5dded5",
+            "name": "Software Development"
+        },
+        "55": {
+            "uuid": "bcfc5577-2c14-363e-b71c-af02a1e5d046",
+            "name": "Site Architecture"
+        },
+        "56": {
+            "uuid": "b092d9c7-6367-3a6a-b0fe-3ab337ffc333",
+            "name": "Data & Intelligence"
+        },
+        "58": {
+            "uuid": "a8ed506a-214d-3f72-8bb3-157913028596",
+            "name": "Platforms and Technology"
+        },
+        "60": {
+            "uuid": "c527fb43-fdbb-398a-8c02-d2d989ead5d8",
+            "name": "Devops"
+        },
+        "61": {
+            "uuid": "95b14750-a92a-3fc8-8cb0-1672a43c4403",
+            "name": "Mobile"
+        },
+        "62": {
+            "uuid": "3d576056-f2cf-3d5d-b532-a13611ec7f73",
+            "name": "Portals and Collaboration"
+        },
+        "64": {
+            "uuid": "cc3a9eec-25fd-36b8-856e-268c8545ac12",
+            "name": "IBM / Red Hat"
+        },
+        "65": {
+            "uuid": "bc0dc287-580e-3aa3-80aa-a5918fd97160",
+            "name": "Red Hat"
+        },
+        "66": {
+            "uuid": "55e13f91-b370-30af-a030-14b852335235",
+            "name": "Analytics"
+        },
+        "68": {
+            "uuid": "c9975cd4-8a6c-3d41-a147-20eb80e4396e",
+            "name": "Life at Perficient"
+        },
+        "74": {
+            "uuid": "8be24ba5-1fcb-3531-9e76-d112013f5560",
+            "name": "Salesforce"
+        },
+        "83": {
+            "uuid": "2d4b1877-7ea0-3e43-92ed-f620fd737fab",
+            "name": "Customer Experience and Design"
+        },
+        "90": {
+            "uuid": "40b3b38c-d66d-381f-bc2c-49a09b02da4e",
+            "name": "Marketo Engage"
+        },
+        "104": {
+            "uuid": "3fa18cf5-a55b-36bc-bed4-adf4ba2650eb",
+            "name": "Informatica"
+        },
+        "105": {
+            "uuid": "4d6c652b-ebf5-305c-808e-ecec72e4c011",
+            "name": "B2B"
+        },
+        "106": {
+            "uuid": "58545e45-65e0-3c33-8d89-66f08453f100",
+            "name": "Optimized Global Delivery"
+        },
+        "107": {
+            "uuid": "35a27901-f438-3d24-a58e-92af46286b9b",
+            "name": "Services"
+        },
+        "110": {
+            "uuid": "caf09349-dd6b-3afe-bd26-26a50ad135f5",
+            "name": "Strategy and Transformation"
+        },
+        "111": {
+            "uuid": "a9c46369-100e-3844-8a7a-14ce81bb1e6e",
+            "name": "Research and Studies"
+        },
+        "129": {
+            "uuid": "7f60fbb7-94ab-30e0-b022-fd497041d299",
+            "name": "Commerce"
+        },
+        "132": {
+            "uuid": "bd5a8080-0bf9-3fb5-b7cc-e909b98a28ae",
+            "name": "Content Marketing"
+        },
+        "141": {
+            "uuid": "ea275246-d2a7-3d68-9293-e734f6e885e6",
+            "name": "Microsoft"
+        },
+        "156": {
+            "uuid": "f67c8572-da02-3054-a380-a565dea0c0be",
+            "name": "Machine Intelligence"
+        },
+        "157": {
+            "uuid": "79aa09d9-3135-3fcf-bcb3-0bbdc7aae923",
+            "name": "Consumer Markets"
+        },
+        "159": {
+            "uuid": "e0f85564-01d2-36c7-bca0-6bbdc1c344d3",
+            "name": "Manufacturing"
+        },
+        "162": {
+            "uuid": "af42167f-5e38-3e1e-850b-c21a33c0ff68",
+            "name": "Supply Chain"
+        },
+        "164": {
+            "uuid": "c07b3c97-24f7-354b-8ce5-255618f56736",
+            "name": "Technology"
+        },
+        "172": {
+            "uuid": "a127ffe1-e493-36df-84b6-7c0040f068df",
+            "name": "Industries"
+        },
+        "173": {
+            "uuid": "c4bed846-43ac-314d-a679-c2a00c864208",
+            "name": "Energy and Utilities"
+        },
+        "178": {
+            "uuid": "dfcfe220-ac9d-3b72-9cea-7660844e70c1",
+            "name": "Amazon Web Services"
+        },
+        "180": {
+            "uuid": "d351458d-2abe-3c38-8d1a-19a993b38036",
+            "name": "Healthcare"
+        }
+    }
+}
